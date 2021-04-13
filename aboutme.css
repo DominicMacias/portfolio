@@ -1,0 +1,56 @@
+/*
+    File: site.css
+    Dominic Macias
+    04/13/2021
+
+    Universal Stylesheet
+*/
+
+/* GRID ITEMS AND CONTAINERS*/
+.item1 {grid-area: header;}
+.item2 {grid-area: body;}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		'header header header header'
+		' body   body   body   body'
+		' body   body   body   body';
+	grid-gap: 5px;
+	padding: 4px;
+	background-color: #264040;
+	width: 100%;
+	height: 100%;
+}
+
+.grid-container > div {
+	background-color: #4d8080;
+}
+
+.grid-container > div:first-child  {
+	background-color: #473127;
+}
+
+/* MAIN */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2F4F4F;
+	color: white;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 240px;
+}
+
+h1, h2, p {
+    text-align: center
+}
+
+h1 {
+    font-size: 48px;
+}
