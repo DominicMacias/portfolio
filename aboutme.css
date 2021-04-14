@@ -8,17 +8,18 @@
 
 /* GRID ITEMS AND CONTAINERS*/
 .item1 {grid-area: header;}
-.item2 {grid-area: body;}
+.item2 {grid-area: nav;}
+.item3 {grid-area: body;}
 
 .grid-container {
 	display: grid;
 	grid-template-areas:
 		'header header header header'
+		' nav    nav    nav    nav'
 		' body   body   body   body'
 		' body   body   body   body';
 	grid-gap: 5px;
-	padding: 4px;
-	background-color: #264040;
+	background-color: #0e4350;
 	width: 100%;
 	height: 100%;
 }
@@ -28,7 +29,7 @@
 }
 
 .grid-container > div:first-child  {
-	background-color: #473127;
+	background-color: #472415;
 }
 
 /* MAIN */

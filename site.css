@@ -1,0 +1,15 @@
+/*
+    File: site.css
+    Dominic Macias
+    04/14/2021
+
+    Universal Stylesheet
+*/
+
+body {
+    font-family: "Source Code Pro", monospace;
+}
+
+p {
+    font-weight: 5;
+}
